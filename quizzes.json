@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "slug": "leadership-style",
+    "title": "ما هو نمط قيادتك؟",
+    "description": "اكتشف كيف تدير الأمور وتؤثر في الآخرين من خلال هذا الاختبار العلمي.",
+    "category": "مهني",
+    "tags": ["عمل", "شخصية", "نجاح"],
+    "difficulty": "medium",
+    "popularity": 95,
+    "image": "https://picsum.photos/id/1/400/300",
+    "questions": [
+      {
+        "id": 101,
+        "text": "عندما يواجه فريقك مشكلة صعبة، ماذا تفعل؟",
+        "options": [
+          { "id": 1, "text": "أترك لهم حرية التصرف تماماً", "scores": { "delegator": 3 } },
+          { "id": 2, "text": "أجتمع معهم للعصف الذهني", "scores": { "collaborator": 3 } },
+          { "id": 3, "text": "أقوم باتخاذ القرار فوراً", "scores": { "authoritarian": 3 } }
+        ]
+      },
+      {
+        "id": 102,
+        "text": "كيف تقيم أداء الموظفين؟",
+        "options": [
+          { "id": 1, "text": "بناءً على النتائج النهائية فقط", "scores": { "authoritarian": 2, "delegator": 1 } },
+          { "id": 2, "text": "بناءً على التطور الشخصي والجهد", "scores": { "collaborator": 3 } }
+        ]
+      }
+    ],
+    "results": {
+      "collaborator": {
+        "title": "القائد المتعاون",
+        "short": "أنت تؤمن بأن روح الفريق هي سر النجاح.",
+        "strengths": ["بناء الثقة", "الاستماع الجيد"],
+        "weaknesses": ["بطء اتخاذ القرار أحياناً"],
+        "shareText": "لقد حصلت على نتيجة 'القائد المتعاون' في اختبار نمط القيادة! اكتشف نمطك هنا:"
+      },
+      "authoritarian": {
+        "title": "القائد الحازم",
+        "short": "أنت شخص عملي، سريع القرار، وتهدف للنتائج.",
+        "strengths": ["الحسم", "الوضوح"],
+        "weaknesses": ["الصرامة الزائدة"],
+        "shareText": "أنا قائد حازم! هل يمكنك منافستي؟ جرب الاختبار:"
+      },
+      "delegator": {
+        "title": "القائد المفوض",
+        "short": "تثق في كفاءة الآخرين وتمنحهم مساحتهم.",
+        "strengths": ["تمكين الآخرين"],
+        "weaknesses": ["فقدان السيطرة في الأزمات"],
+        "shareText": "نمط قيادتي هو التفويض. ماذا عنك؟"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "slug": "stress-test",
+    "title": "مقياس مستوى التوتر لديك",
+    "description": "هل أنت هادئ كالجليد أم على وشك الانفجار؟",
+    "category": "نفسي",
+    "tags": ["صحة", "هدوء"],
+    "difficulty": "easy",
+    "popularity": 80,
+    "image": "https://picsum.photos/id/10/400/300",
+    "questions": [
+      {
+        "id": 201,
+        "text": "كم ساعة تنام في العادة؟",
+        "options": [
+          { "id": 1, "text": "أقل من 5 ساعات", "scores": { "high": 3 } },
+          { "id": 2, "text": "7-8 ساعات", "scores": { "low": 3 } }
+        ]
+      }
+    ],
+    "results": {
+      "high": { "title": "متوتر جداً", "short": "تحتاج لإجازة فورية!", "strengths": ["الإنجاز تحت الضغط"], "weaknesses": ["الإرهاق"], "shareText": "أنا متوتر قليلاً، أحتاج لهدوء!" },
+      "low": { "title": "هادئ ومسترخي", "short": "أنت تتحكم في أعصابك بشكل رائع.", "strengths": ["التركيز"], "weaknesses": ["البطء أحياناً"], "shareText": "أنا في قمة الهدوء، جرب الاختبار لتعرف مستواك." }
+    }
+  },
+  {
+    "id": 3,
+    "slug": "introvert-extrovert",
+    "title": "هل أنت انطوائي أم اجتماعي؟",
+    "category": "نفسي",
+    "tags": ["شخصية"], "difficulty": "easy", "popularity": 120, "image": "https://picsum.photos/id/20/400/300",
+    "questions": [{"id": 1, "text": "حفلة كبيرة أم كتاب؟", "options": [{"text": "كتاب", "scores": {"intro": 2}}, {"text": "حفلة", "scores": {"extro": 2}}]}],
+    "results": {
+      "intro": {"title": "انطوائي", "short": "تستمد طاقتك من الوحدة.", "strengths": ["العمق"], "weaknesses": ["الخجل"], "shareText": "أنا انطوائي وأفتخر!"},
+      "extro": {"title": "اجتماعي", "short": "تستمد طاقتك من الناس.", "strengths": ["التواصل"], "weaknesses": ["تجنب الوحدة"], "shareText": "أنا كائن اجتماعي!"}
+    }
+  },
+  {
+    "id": 4,
+    "slug": "career-path",
+    "title": "ما هي الوظيفة المثالية لك؟",
+    "category": "مهني",
+    "tags": ["مستقبل"], "difficulty": "hard", "popularity": 70, "image": "https://picsum.photos/id/30/400/300",
+    "questions": [{"id": 1, "text": "تحب العمل مع..", "options": [{"text": "الأرقام", "scores": {"tech": 2}}, {"text": "الناس", "scores": {"service": 2}}]}],
+    "results": {
+      "tech": {"title": "تقني", "short": "عالم البرمجة والبيانات ينتظرك.", "strengths": ["المنطق"], "weaknesses": ["العزلة"], "shareText": "مكاني في التكنولوجيا!"},
+      "service": {"title": "خدمي", "short": "أنت بارع في مساعدة الآخرين.", "strengths": ["التعاطف"], "weaknesses": ["التضحية بالذات"], "shareText": "أحب العمل مع الناس!"}
+    }
+  },
+  {
+    "id": 5,
+    "slug": "travel-vibe",
+    "title": "أي مدينة سياحية تشبهك؟",
+    "category": "ترفيهي",
+    "tags": ["سفر"], "difficulty": "easy", "popularity": 150, "image": "https://picsum.photos/id/40/400/300",
+    "questions": [{"id": 1, "text": "تفضل الجو..", "options": [{"text": "البارد", "scores": {"london": 2}}, {"text": "المشمس", "scores": {"dubai": 2}}]}],
+    "results": {
+      "london": {"title": "لندن", "short": "أنت كلاسيكي وهادئ.", "strengths": ["الثقافة"], "weaknesses": ["الجدية"], "shareText": "أنا أنتمي للندن!"},
+      "dubai": {"title": "دبي", "short": "أنت تحب الفخامة والتطور.", "strengths": ["الطموح"], "weaknesses": ["الإسراف"], "shareText": "دبي هي وجهتي!"}
+    }
+  }
+]
+
+
+
+

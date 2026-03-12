@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="منصة اختبارات الشخصية التفاعلية - اكتشف نفسك الآن">
+    <title>اختبارات الشخصية | اختبارات شخصية ممتعة</title>
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="كويزات | اكتشف شخصيتك">
+    <meta property="og:description" content="مجموعة من أفضل اختبارات الشخصية المرحة ">
+    <meta property="og:image" content="images/og-image.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="اختبارات الشخصية | اكتشف شخصيتك">
+
+    <link rel="stylesheet" href="styleagain.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="main-header">
+        <nav class="container">
+            <div class="logo" role="banner">
+                <a href="/" id="logo-link">🧠 اختبارات الشخصية<span>.</span></a>
+            </div>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="ابحث عن اختبار..." aria-label="بحث عن اختبارات">
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="فتح القائمة">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><button class="cat-filter active" data-category="all">الكل</button></li>
+                <li><button class="cat-filter" data-category="انمي">انمي</button></li>
+                <li><button class="cat-filter" data-category="شخصية">شخصية</button></li>
+                <li><button class="cat-filter" data-category="ترفيهي">ترفيهي</button></li>
+               <li><button class="cat-filter" data-category="اخرى">اخرى</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div id="ad-top" class="ad-placeholder">
+            <small>إعلان</small>
+        </div>
+
+        <section id="error-message" class="hidden"></section>
+
+        <section id="quizzes-grid" class="quizzes-grid">
+            <div class="loader">جاري التحميل...</div>
+        </section>
+
+        <section id="quiz-view" class="quiz-container hidden">
+            <div class="quiz-header">
+                <button id="close-quiz" class="btn-close">&times;</button>
+                <div id="progress-bar-container">
+                    <div id="progress-bar"></div>
+                </div>
+            </div>
+            
+            <div id="question-area"></div>
+            
+            <div id="ad-inline" class="ad-placeholder">
+                <small>إعلان</small>
+            </div>
+        </section>
+
+        <section id="result-view" class="result-container hidden">
+            <div id="result-content"></div>
+            
+            <div class="share-section">
+                <h3>شارك نتيجتك:</h3>
+                <div class="share-buttons">
+                    <button id="share-wa" class="btn-share">WhatsApp</button>
+                    <button id="share-fb" class="btn-share">Facebook</button>
+                    <button id="copy-link" class="btn-share">نسخ الرابط</button>
+                </div>
+            </div>
+
+            <div id="ad-results" class="ad-placeholder">
+                <small>إعلان</small>
+            </div>
+
+            <hr>
+            <h3>اختبارات قد تعجبك:</h3>
+            <div id="recommendations-grid" class="quizzes-grid"></div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 جميع الحقوق محفوظة لمنصة كويزات</p>
+    </footer>
+
+</body>
+</html>
